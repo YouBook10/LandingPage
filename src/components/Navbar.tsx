@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import logoSrc from "@/assets/Youbook_Final logo-01.png";
 
 export const Navbar = () => {
   return (
@@ -7,11 +8,7 @@ export const Navbar = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           <div className="flex items-center space-x-2">
             <a href="/" aria-label="YouBook homepage" className="flex items-center space-x-2">
-              <img
-                src="/src/assets/Youbook_Final logo-01.png"
-                alt="YouBook logo"
-                className="h-12 md:h-16 lg:h-20 w-auto"
-              />
+              <img src={logoSrc} alt="YouBook logo" className="h-12 md:h-16 lg:h-20 w-auto" />
             </a>
           </div>
           
