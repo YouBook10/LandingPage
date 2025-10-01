@@ -66,7 +66,12 @@ export const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                <a
+                  href="https://youbook-2.onrender.com/privacy-policy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                >
                   Privacy Policy
                 </a>
               </li>

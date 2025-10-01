@@ -19,12 +19,12 @@ export const CTA = () => {
             Join thousands of authors who are already reaching millions of readers across India
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button size="lg" className="text-lg px-10 py-6 bg-primary hover:bg-primary/90">
+            {/* <Button size="lg" className="text-lg px-10 py-6 bg-primary hover:bg-primary/90">
               Start Publishing Today
             </Button>
             <Button size="lg" variant="outline" className="text-lg px-10 py-6">
               Download the App
-            </Button>
+            </Button> */}
           </div>
         </div>
       </div>

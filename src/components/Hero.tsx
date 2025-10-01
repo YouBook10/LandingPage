@@ -19,12 +19,12 @@ export const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-6">
-            <Button size="lg" className="text-lg px-8 py-6 bg-primary hover:bg-primary/90">
+            {/* <Button size="lg" className="text-lg px-8 py-6 bg-primary hover:bg-primary/90">
               Start Publishing Free
             </Button>
             <Button size="lg" variant="outline" className="text-lg px-8 py-6">
               Explore Books
-            </Button>
+            </Button> */}
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 pt-16 max-w-4xl mx-auto">
